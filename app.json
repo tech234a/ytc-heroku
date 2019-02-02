@@ -10,9 +10,6 @@
   "website": "https://github.com/Jopik1/ytc-heroku",
   "repository": "https://github.com/Jopik1/ytc-heroku",
   "formation":{
-    "web":{
-      "quantity":0
-    },
     "worker":{
       "quantity":1
     }
