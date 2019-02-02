@@ -4,12 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-
-	"github.com/Sirupsen/logrus"
-)
-
-var (
-	log = logrus.WithField("cmd", "queue-example-web")
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
