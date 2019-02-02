@@ -5,31 +5,55 @@
 			"./cmd/..."
 		]
 	},
-	"ignore": "test solaris",
+	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "DWPL08pD/SQ2GzLfoR7ZXnjj7Sw=",
-			"path": "github.com/Sirupsen/logrus",
-			"revision": "4b6ea7319e214d98c938f12692336f7ca9348d6b"
+			"checksumSHA1": "rXqzjkfStc6C8d7DDOXrmAv/fH8=",
+			"path": "github.com/PuerkitoBio/goquery",
+			"revision": "3dcf72e6c17f694381a21592651ca1464ded0e10",
+			"revisionTime": "2019-01-09T23:07:04Z"
 		},
 		{
-			"checksumSHA1": "Yi01kv5j7xmEXhv1kPTQnM8O8og=",
-			"path": "github.com/bgentry/que-go",
-			"revision": "e2fa4b8f0b5ef9ca86ab2d59f0ace88b96ac1a50"
+			"checksumSHA1": "RIh1dcM7jKzdb/ZNYrKn9SaIaCw=",
+			"path": "github.com/andybalholm/cascadia",
+			"revision": "680b6a57bda4f657485ad44bdea42342ead737bc",
+			"revisionTime": "2018-10-12T15:44:24Z"
 		},
 		{
-			"checksumSHA1": "ffSK5lJrsPqKc7iJPH4Gu9pIO1k=",
-			"path": "github.com/jackc/pgx",
-			"revision": "9edd770c70e274b7ef67fa9f4039c824be0f8bda"
+			"checksumSHA1": "Yz8nRvgJR9qN9OORCUQKc4eHC7Q=",
+			"path": "github.com/labstack/gommon/color",
+			"revision": "82ef680aef5189b68682876cf70d09daa4ac0f51",
+			"revisionTime": "2019-01-25T18:56:10Z"
 		},
 		{
-			"checksumSHA1": "QoVjlQFru1ixgV8vh63T4/JAtLI=",
-			"path": "github.com/pkg/errors",
-			"revision": "a22138067af1c4942683050411a841ade67fe1eb",
-			"revisionTime": "2016-08-08T05:55:40Z"
+			"checksumSHA1": "AtXpiR7Gtq5cF+6eUAH+LzupMts=",
+			"path": "github.com/mattn/go-colorable",
+			"revision": "efa589957cd060542a26d2dd7832fd6a6c6c3ade",
+			"revisionTime": "2018-03-10T13:32:14Z"
 		},
 		{
-			"path":"github.com/PuerkitoBio/goquery"
+			"checksumSHA1": "LkbotKu3JQxXEZZ9P40yhnFOycY=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "3fb116b820352b7f0c281308a4d6250c22d94e27",
+			"revisionTime": "2018-08-30T10:17:45Z"
+		},
+		{
+			"checksumSHA1": "gF19dE61sKgadvSa8VG9QZl6SnY=",
+			"path": "github.com/spf13/cast",
+			"revision": "8c9545af88b134710ab1cd196795e7f2388358d7",
+			"revisionTime": "2018-10-24T22:49:29Z"
+		},
+		{
+			"checksumSHA1": "VMoF3pagO47x0/nx0GQyFPt9Grk=",
+			"path": "golang.org/x/net/html",
+			"revision": "d26f9f9a57f3fab6a695bec0d84433c2c50f8bbf",
+			"revisionTime": "2018-09-25T13:55:50Z"
+		},
+		{
+			"checksumSHA1": "mCMW3hvbWFW1k5il9yyO7ELOdws=",
+			"path": "golang.org/x/net/proxy",
+			"revision": "d26f9f9a57f3fab6a695bec0d84433c2c50f8bbf",
+			"revisionTime": "2018-09-25T13:55:50Z"
 		}
 	],
 	"rootPath": "github.com/heroku-examples/go-queue-example"
