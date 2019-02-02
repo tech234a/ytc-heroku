@@ -7,8 +7,8 @@
   "buildpacks":[
     {"url":"heroku/go"}
   ],
-  "website": "https://github.com/Jopik1/yt-metadata-parser",
-  "repository": "https://github.com/Jopik1/yt-metadata-parser",
+  "website": "https://github.com/Jopik1/ytc-heroku",
+  "repository": "https://github.com/Jopik1/ytc-heroku",
   "formation":{
     "web":{
       "quantity":0
