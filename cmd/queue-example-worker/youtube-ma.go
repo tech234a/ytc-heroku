@@ -82,8 +82,8 @@ var cmdFlags = struct {
 	false, //GetAnnotation
 	true,  //GetThumbnail
 	false, //DualFormatExistCheck
-	false,
-	true,
+	true,  // RemoveRedundantData
+	false, //UseSockProxy
 	2,
 	"",
 	8,
