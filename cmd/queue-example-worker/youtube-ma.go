@@ -1587,7 +1587,15 @@ func argumentParsing(args []string) {
 			//fetch block from server
 			fileWithIds = "blockids.txt"
 			newWorkBatch := new(workBatch) // or &Foo{}
-			getJSON(cmdFlags.MasterServer+"/getBatchWorkUnit", newWorkBatch)
+
+			err := getJSON(cmdFlags.MasterServer+"/getBatchWorkUnit", newWorkBatch)
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "Unable to fetch getBatchWorkUnit: %v\n", err)
+				sleepTime := 20
+				fmt.Printf("Sleeping %d seconds and then will retry\n", sleepTime)
+				time.Sleep(time.Duration(sleepTime) * time.Second)
+				continue
+			}
 			batchID = newWorkBatch.BatchID
 			batchUUID = newWorkBatch.BatchUUID
 			fmt.Println(fmt.Sprintf("Recieved batch unit for download BatchID:%s (%s) - %d videos", batchID, batchUUID, len(newWorkBatch.VideoIDS)))
@@ -1604,9 +1612,6 @@ func argumentParsing(args []string) {
 				}
 				tempIDsFile.WriteString(element)
 
-				if idx > 101 {
-					break
-				}
 			}
 			tempIDsFile.Close()
 		}
