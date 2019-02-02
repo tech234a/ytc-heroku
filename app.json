@@ -1,23 +1,17 @@
 {
-  "name": "Go Queue Example App",
-  "description": "Go Background / Queue Example App",
+  "name": "ytc project",
+  "description": "ytc metadata archive project",
   "keywords": [
-    "postgresql",
-    "queue",
     "go"
   ],
   "buildpacks":[
-    {"url":"https://github.com/heroku/heroku-buildpack-addon-wait.git"},
     {"url":"heroku/go"}
   ],
-  "website": "http://github.com/heroku-examples/go_queue_example",
-  "repository": "http://github.com/heroku-examples/go_queue_example",
-  "addons": [
-    "heroku-postgresql"
-  ],
+  "website": "https://github.com/Jopik1/yt-metadata-parser",
+  "repository": "https://github.com/Jopik1/yt-metadata-parser",
   "formation":{
     "web":{
-      "quantity":1
+      "quantity":0
     },
     "worker":{
       "quantity":1
