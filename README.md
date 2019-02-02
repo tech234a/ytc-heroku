@@ -6,3 +6,6 @@ https://github.com/Jopik1/ytc-heroku
 
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Jopik1/ytc-heroku/tree/master)
+
+
+If you have your github account synced with Heroku for autodepoloyement please fork this project and configure pull (https://github.com/apps/pull) to keep the Heroku instance up to date.
