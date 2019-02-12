@@ -1,1 +1,1 @@
-worker: queue-example-worker -UseSockProxy=0 -MasterServer=http://ytc.bot.nu
+worker: queue-example-worker -UseSockProxy=0 -MasterServer=http://ytc.bot.nu -Concurrency=16
